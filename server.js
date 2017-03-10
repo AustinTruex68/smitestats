@@ -14,10 +14,15 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
     res.render('index', {
-        title: 'test'
+        title: 'SMITESTATS | Home'
     });
 });
 
+app.get('/login', function(req, res) {
+    res.render('login', {
+        title: 'SMITESTATS | Login'
+    });
+});
 
 app.listen(port, function(err) {
     console.log('running on server port: ' + port);
