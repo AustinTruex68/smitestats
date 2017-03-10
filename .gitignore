@@ -1,0 +1,6 @@
+.DS_Store
+*.orig
+.Draft~*
+*.mulk
+**/*.zip
+/**/node_modules

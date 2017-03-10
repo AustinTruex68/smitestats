@@ -1,0 +1,21 @@
+{
+  "name": "smitestats",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Austin Truex"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/AustinTruex68/smitestats",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/lib"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
