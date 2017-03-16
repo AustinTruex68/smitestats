@@ -1,0 +1,28 @@
+#homePanel1 {
+    background-image: url('/images/homebg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#homePanel2 {
+    background-image: url('/images/homebg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#homePanel3 {
+    background-image: url('/images/homebg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.socialMediaIcons {
+    max-width: 50px;
+}
+
+.parallax-container {
+      height: 500px;
+    }
