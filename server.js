@@ -24,6 +24,12 @@ app.get('/login', function(req, res) {
     });
 });
 
+app.get('/register', function(req, res){
+    res.render('register', {
+        title: 'SMITESTATS | Register'
+    })
+})
+
 app.listen(port, function(err) {
     console.log('running on server port: ' + port);
 });

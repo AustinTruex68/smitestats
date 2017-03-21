@@ -24,5 +24,17 @@
 }
 
 .parallax-container {
-      /*height: 500px;*/
-    }
+    height: 400px;
+}
+
+.winning-card-image img {
+    border: 3px solid green;
+}
+
+.losing-card-image img {
+    border: 3px solid red;
+}
+
+.home-compare-card {
+    padding: 5px;
+}
