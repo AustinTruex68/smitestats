@@ -28,7 +28,37 @@ app.get('/register', function(req, res){
     res.render('register', {
         title: 'SMITESTATS | Register'
     })
-})
+});
+
+app.get('/donate', function(req, res){
+    res.render('donate', {
+        title: 'SMITESTATS | Donate'
+    })
+});
+
+app.get('/about', function(req, res) {
+    res.render('about', {
+        title: 'SMITESTATS | About'
+    })
+});
+
+app.get('/godCompare', function(req, res) {
+    res.render('godCompare', {
+        title: 'SMITESTATS | God Compare'
+    })
+});
+
+app.get('/playerCompare', function(req, res) {
+    res.render('playerCompare', {
+        title: 'SMITESTATS | Player Compare'
+    })
+});
+
+app.get('/tierLists', function(req, res) {
+    res.render('tierLists', {
+        title: 'SMITESTATS | Tier Lists'
+    })
+});
 
 app.listen(port, function(err) {
     console.log('running on server port: ' + port);
