@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/lib/materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/lib/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/globalStyles.css">
+    <link rel="stylesheet" type="text/css" href="/css/about.css">
 </head>
 
 <body>
@@ -20,7 +22,46 @@
         <%- include partials/navigation.ejs %>
     </header>
     <main>
-        <h1>about</h1>
+        <div class="container">
+            <div class="row" id="aboutMainCard">
+                <div class="col s12 m6">
+                    <div class="card blue-grey darken-3">
+                        <div class="card-image">
+                            <center>
+                                <img src="/images/truextacy.png" style="max-width: 50%;">
+                                <span class="card-title text-black">About SmiteStats</span>
+                                <a href="https://github.com/AustinTruex68" target="_blank" class="btn-floating halfway-fab waves-effect waves-light green accent-4"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+                            </center>
+                        </div>
+                        <div class="card-content grey-text text-lighten-4">
+                            <p>SmiteStats is an ongoing project developed by me, Austin. Refering me to my alias/in-game name is fine as well (Truextacy). I developed this web application primarily for the joys of sharing it with my friends. <br>
+                            However, if it is well adopted within the SMITE community, (and the server cost doesn't get to bad) I would love to continue further development of this project.
+                            <br>
+                            Above there is a link to my github account, where you can view all of the code it took for me to build this project and if you are so inclined, feel free to fork it and help me make this thing awesome!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card blue-grey darken-3">
+                        <div class="card-image">
+                            <center>
+                                <img src="/images/me.png" style="max-width: 50%;">
+                                <span class="card-title text-black">About Me</span>
+                                <a href="https://www.twitch.tv/truextacy" target="_blank" class="btn-floating halfway-fab waves-effect waves-light green accent-4"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+
+                            </center>
+                        </div>
+                        <div class="card-content grey-text text-lighten-4">
+                            <p>I am Austin, I am currently a web development student working on obtaining my bachelor's degree. I am currently a full-stack javascript developer and am looking to build up my portfolio on fun projects. <br> I have been playing video games ever since I can remember, starting off with Age of Empires and now many many more. Been playing SMITE since shortly after release. <br>
+                            When I am not playing videogames you can usually find me programming, chilling with my buddies, dirtbiking, playing hockey, longboarding, or some other sport.
+                            <br>
+                            I hope you enjoy SmiteStats, it has been a blast to build.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- footer -->
     <footer class="page-footer blue-grey darken-3">

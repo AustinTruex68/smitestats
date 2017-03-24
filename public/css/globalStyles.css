@@ -5,3 +5,11 @@ html, body {
 .greenShadow {
     text-shadow: 1px 1px #00c853;
 }
+
+.winning-card-image img {
+    border: 3px solid green;
+}
+
+.losing-card-image img {
+    border: 3px solid red;
+}

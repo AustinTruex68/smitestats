@@ -60,6 +60,18 @@ app.get('/tierLists', function(req, res) {
     })
 });
 
+app.get('/featureIdea', function(req, res) {
+    res.render('featureIdea', {
+        title: 'SMITESTATS | Feature Idea'
+    })
+});
+
+app.get('/profile', function(req, res) {
+    res.render('profile', {
+        title: 'SMITESTATS | Profile'
+    })
+});
+
 app.listen(port, function(err) {
     console.log('running on server port: ' + port);
 });
