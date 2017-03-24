@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/lib/materialize/dist/css/materialize.min.css">
     <link rel="stylesheet" href="/css/globalStyles.css">
+    <link rel="stylesheet" type="text/css" href="/css/profile.css">
 </head>
 
 <body>
@@ -20,9 +21,35 @@
         <%- include partials/navigation.ejs %>
     </header>
     <main>
-        <div class="container">
-            <h1>Profile</h1>
-            <p>This page has not been built out. The Pages that are ready for your approval Nic, are <a href="/">Home</a>, <a href="/about">About</a>, <a href="/login">Login</a>, <a href="/register">Register</a>, and <a href="/fetureIdea">Feature Idea</a></p>
+
+        <div class="row">
+            <div class="col s6 m4">
+                <div class="card blue-grey darken-3">
+                    <center>
+                        <div class="card-image">
+                            <img src="images/usericon1.png">
+                        </div>
+                        <span class="card-title green-text text-accent-4">Truextacy (PlayerName)</span>
+                        <div class="card-content grey-text text-lighten-4">
+                            <ul>
+                                <li><strong>KDA:</strong> 2.5</li>
+                                <li><strong>Player Compares: </strong> 32</li>
+                                <li><strong>God Compares: </strong> 61</li>
+                            </ul>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div class="col s6 m8">
+                <ul class="tabs">
+                    <li class="tab col s3"><a href="#userInfo">User Info</a></li>
+                    <li class="tab col s3"><a class="active" href="#userStats">User Stats</a></li>
+                </ul>
+                <div id="userInfo" class="col s12">
+                UserInfo
+                </div>
+                <div id="userStats" class="col s12">User Stats</div>
+            </div>
         </div>
     </main>
     <!-- footer -->
